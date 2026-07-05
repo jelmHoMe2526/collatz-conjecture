@@ -2,7 +2,7 @@ class CollatzCalculator {
 
     int computeStepCount(int start) {
         if (start == 1){
-            return 1;
+            return 0;
         }    
         if (start % 2 == 0){
             return 1 + computeStepCount(start/2);
