@@ -41,7 +41,6 @@ public class CollatzCalculatorTest {
                 .withMessage("Only positive integers are allowed");
     }
 
-    @Disabled("Remove to run test")
     @Test
     @DisplayName("negative value is an error")
     public void testNegativeIntegerIsConsideredInvalidInput() {
